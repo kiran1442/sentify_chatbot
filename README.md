@@ -35,14 +35,15 @@ This project is a sentiment analysis application built using TextBlob and Stream
     pip install pandas textblob streamlit nltk
 <!--end code-->
 
-<!--start code-->
 #### 2. Download NLTK datasets (required for preprocessing):
 
 import nltk
+
 nltk.download('stopwords')
+
 nltk.download('punkt')
+
 nltk.download('wordnet')
-<!--end code-->
 
 
 ## How it Works
